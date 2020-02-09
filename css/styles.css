@@ -89,7 +89,8 @@ body {
 }
 
 /* END HEADER */
-/* ************************************************** */
+
+/*<><>><><><>><><><>><><><>><><><>><><><>><><><>><><><>><><><>><><><>><>*/
 /* HOME PAGE */
 #menu-tile, #specials-tile, #map-tile{
   height: 250px;
@@ -127,8 +128,46 @@ body {
   opacity: .8;
 }
 
-/* END HOME PAGE */
 
+/* END HOME PAGE */
+/*<><>><><><>><><><>><><><>><><><>><><><>><><><>><><><>><><><>><><><>><>*/
+/* Footer */
+  .panel-footer{
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+  }
+  
+  .panel-footer div.row{
+    margin-bottom: 15px;
+  }
+
+  #hours, #address {
+    line-height: 1.5;
+  }
+
+  #hours > span, #address > span {
+    font-size: 1.3em;
+  }
+
+  #address p {
+    color: #557c3e;
+    font-size: .8em;
+    line-height: 1.8;
+  }
+#testimonials{
+  font-style: italic;
+}
+
+#testimonials p:nth-child(2){
+  margin-top: 25px;
+
+}
+
+  
+/* End Footer */
 
 /* Media querys */
 /* Large  Devices */
